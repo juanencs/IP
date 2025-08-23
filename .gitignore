@@ -1,2 +1,34 @@
-/Estr_seq/
-.exe
+# Executáveis
+*.exe
+*.out
+*.app
+*.o
+*.obj
+
+# Arquivos de biblioteca
+*.lib
+*.a
+*.la
+*.so
+*.dll
+*.dylib
+
+# CMake
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+install_manifest.txt
+
+# CLion/IntelliJ
+.idea/
+
+# Visual Studio
+*.sln
+*.vcxproj
+*.vcxproj.filters
+
+# Arquivos temporários
+*.tmp
+*.temp
+*~
