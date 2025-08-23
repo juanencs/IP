@@ -1,7 +1,9 @@
 /**
  * @file ex2.c
  * @author Juan Enrico
- * @brief Uma pessoa está construindo e resolveu colocar em sua casa uma caixa para servir como reservatório de água. Considerando que a caixa seja retangular, faça um programa que leia as dimensões da caixa (comprimento, altura e largura), calcule e escreva o volume de água que pode ser armazenado.
+ * @brief Uma pessoa está construindo e resolveu colocar em sua casa uma caixa para servir como reservatório de água. 
+ Considerando que a caixa seja retangular, faça um programa que leia as dimensões da caixa (comprimento, altura e largura), 
+ calcule e escreva o volume de água que pode ser armazenado.
  * @version 0.1
  * @date 2025-08-22
  * 
