@@ -1,9 +1,7 @@
 /**
  * @file ex1.c
  * @author Juan Enrico
- * @brief João faz economias em dólar, e deseja saber quanto estas economias valem em reais. Leia a quantidade 
- de dólares que ele possui e a cotação atual do dólar (em real). Converta o valor de suas economias para real. 
- Imprimir: o valor das economias em dólar e em real.
+ * @brief João faz economias em dólar, e deseja saber quanto estas economias valem em reais. Leia a quantidade de dólares que ele possui e a cotação atual do dólar (em real). Converta o valor de suas economias para real. Imprimir: o valor das economias em dólar e em real.
  * @version 0.1
  * @date 2025-08-22
  * 
