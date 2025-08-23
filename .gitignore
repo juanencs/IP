@@ -1,2 +1,22 @@
-/Estr_seq/
-.exe
+# Executáveis Windows
+*.exe
+
+# Outros executáveis
+*.out
+*.app
+
+# Diretórios de build
+build/
+cmake-build-debug/
+cmake-build-release/
+cmake-build-*/
+
+# Arquivos temporários do sistema
+*.tmp
+*.temp
+
+# Arquivos do CLion/IntelliJ
+.idea/
+Opção 3: Template completo para C/C++
+Para um .gitignore mais abrangente para projetos C/C++:
+
