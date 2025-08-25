@@ -1,9 +1,9 @@
 /**
  * @file ex2.c
  * @author Juan Enrico
- * @brief Uma pessoa est√° construindo e resolveu colocar em sua casa uma caixa para servir como reservat√≥rio de √°gua. 
- Considerando que a caixa seja retangular, fa√ßa um programa que leia as dimens√µes da caixa (comprimento, altura e largura), 
- calcule e escreva o volume de √°gua que pode ser armazenado.
+ * @brief Uma pessoa est· construindo e resolveu colocar em sua casa uma caixa para servir como reservatÛrio de ·gua. 
+ Considerando que a caixa seja retangular, faÁa um programa que leia as dimensıes da caixa (comprimento, altura e largura), 
+ calcule e escreva o volume de ·gua que pode ser armazenado.
  * @version 0.1
  * @date 2025-08-22
  * 
@@ -16,7 +16,7 @@ int main() {
 
     double comprimento, largura, altura, volume;
 
-    printf ("== Insira as medidas da caixa d'√°gua ==\n");
+    printf ("== Insira as medidas da caixa d·gua ==\n");
 
     printf ("Comprimento (m): ");
     scanf ("%lf", &comprimento);
@@ -29,7 +29,7 @@ int main() {
 
     volume = comprimento * largura * altura;
 
-    printf ("O volume de √°gua que pode ser armazenado √© de: %.2lf m¬≥.\n", volume);
+    printf ("O volume de ·gua que pode ser armazenado È de: %.2lf m≥.\n", volume);
 
     return 0;
 }
