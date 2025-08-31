@@ -1,0 +1,51 @@
+17. Identifique, sem usar o computador para isto, os erros dos programas abaixo:
+a) main()
+int i ;
+scanf(" %f", &i);
+printf( " Valor igual a %d \n", i);
+}
+
+- As chaves da função main não foram abertas.
+- A variável inteira "i" foi lida como um valor float.
+
+b) main()
+{ int i ;
+scanf(" %d", &x);
+printf( " Valor igual a %d /n", &i);
+}
+
+- A variável "x" lida no scanf não foi declarada. 
+- A variável "i" no printf está com um "&" o que vai gerar um erro de compilação.
+
+c) Main()
+{ int i ;
+scanf(" %d", &i);
+printf( " Valor igual a % \n", i); }
+
+- No printf não foi especificado o tipo da variável que será impresso, gerando erro de compilação. O símbolo de % quando sozinho é reservado na linguagem C, não podendo ser usado a não ser em operações de módulo ou especificador de formato.
+
+d) main()
+{ int a, b, c:
+float x;
+x = 3,5;
+c = 3 . a - 4 . b ;
+d = x + c;
+printf( " x igual a %d \n ", x);
+printf (" c e d são respectivamente iguais a %d %f \n ", c, d); }
+
+- No fim da declaração de variáveis int foi colocado ":" ao invés de ";".
+- Variável "x" usou "," ao invés de "." para simbolizar um número float.
+- O cálculo do valor de atribuição da variável "c" foi feito incorretamente, o "." não tem a função de operador aritmético. 
+- A variável "d" não foi declarada.
+- No primeiro printf, a variável "x" está sendo especificada como int ao invés de float. 
+- No segundo printf a variável "d" não declarada aparece novamente. 
+
+e) main()
+{ char ch; float x, y ;
+ch = ‘ a ‘;
+x = 3;
+y = x * ch;
+printf ( "y = %d \n ", y); }
+
+- Variáveis float não podem realizar operações com valores char. O que iria gerar um erro de compilação.
+- No printf, a variável "y" está com o especificador de formato para int ao invés de float, gerando outro erro de compilação.
