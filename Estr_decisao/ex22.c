@@ -29,7 +29,7 @@ setlocale (LC_ALL, "Portuguese");
     } else if (idade >= 14 && idade <= 17) {
         printf ("\nCategoria: Juvenil B\n");
     } else {
-        printf ("\nFora da faixa etária!\n");
+        printf ("\nFora da faixa etaria!\n");
     } 
 
     return 0;
