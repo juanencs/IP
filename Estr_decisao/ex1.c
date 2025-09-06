@@ -31,12 +31,12 @@ int main() {
     raiz2 = b - sqrt(delta) / (2*a);
 
     if (a == 0) {
-        printf ("Não é uma equação do segundo grau\n");
+        printf ("\nNão é uma equação do segundo grau\n");
     } else if (delta <= 0) {
-        printf ("Não há raízes reais.\n");
+        printf ("\nNão há raízes reais.\n");
     } else if (delta >= 0) {
-        printf ("Valor de x': %.2lf\n", raiz1);
-        printf ("Valor de x'': %.2lf\n", raiz2);
+        printf ("\nValor de x': %.2lf\n", raiz1);
+        printf ("\nValor de x'': %.2lf\n", raiz2);
     }
 
     return 0;

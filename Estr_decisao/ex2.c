@@ -22,9 +22,9 @@ int main() {
     quadrado = pow(n, 2);
 
     if (n >= 0) {
-        printf ("Raíz quadrada de n: %.2lf\n", raizq);
+        printf ("\nRaíz quadrada de n: %.2lf\n", raizq);
     } else if (n < 0) {
-        printf ("Quadrado de n: %.2lf\n", quadrado);
+        printf ("\nQuadrado de n: %.2lf\n", quadrado);
     }
 
     return 0;
