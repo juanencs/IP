@@ -2,7 +2,7 @@
  * @file ex8.c
  * @author Juan Enrico (juanenricocs@outlook.com)
  * @brief Receber a altura e o sexo de uma pessoa, calcule e imprima o seu peso ideal, usando as seguintes
-fÃ³rmulas:
+fórmulas:
 - homens: (72.7 * altura) - 58
 - mulheres: (62.1 * altura) - 44.7
  * @version 0.1
@@ -25,11 +25,11 @@ int main() {
 
     if (sexo == 'M' || sexo == 'm') {
         peso_ideal = 72.7*altura - 58;
-        printf ("\nSeu peso ideal Ã©: %.2lf\n", peso_ideal);
+        printf ("\nSeu peso ideal é: %.2lf\n", peso_ideal);
         
     } else if (sexo == 'F' || sexo == 'f') {
         peso_ideal = 62.1*altura - 44.7;
-        printf ("\nSeu peso ideal Ã©: %.2lf\n", peso_ideal);
+        printf ("\nSeu peso ideal é: %.2lf\n", peso_ideal);
     }
 
     return 0;

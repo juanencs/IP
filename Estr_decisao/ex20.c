@@ -1,10 +1,10 @@
 /**
  * @file ex11.c
  * @author Juan Enrico (juanenricocs@outlook.com)
- * @brief Escreva um algoritmo que, tendo como dados de entrada o preÃ§o de um produto e seu cÃ³digo de
-origem, mostre o preÃ§o junto de sua procedÃªncia. Caso o cÃ³digo nÃ£o seja nenhum dos especificados,
+ * @brief Escreva um algoritmo que, tendo como dados de entrada o preço de um produto e seu código de
+origem, mostre o preço junto de sua procedência. Caso o código não seja nenhum dos especificados,
 o produto deve ser encarado com importado. 1- SUL; 2- NORTE; 3- LESTE; 4- OESTE; 5 ou 6- 
-NORDESTE; 7, 8 ou 9 - SUDESTE; 10 atÃ© 20 - CENTRO-OESTE; 25 atÃ© 30 - NORDESTE.  
+NORDESTE; 7, 8 ou 9 - SUDESTE; 10 até 20 - CENTRO-OESTE; 25 até 30 - NORDESTE.  
  * @version 0.1
  * @date 2025-09-05
  * 
@@ -18,27 +18,27 @@ int main() {
     double preco;
     int codigo; 
 
-    printf ("Insira o preÃ§o do produto: ");
+    printf ("Insira o preço do produto: ");
     scanf ("%lf", &preco);
-    printf ("Insira o cÃ³digo de origem: ");
+    printf ("Insira o código de origem: ");
     scanf ("%d", &codigo);
     
     if (codigo == 1) {
-        printf ("\nPreÃ§o: %.2lf. ProcedÃªncia: Sul.\n", preco);    
+        printf ("\nPreço: %.2lf. Procedência: Sul.\n", preco);    
     } else if (codigo == 2) {
-        printf ("\nPreÃ§o: %.2lf. ProcedÃªncia: Norte.\n", preco); 
+        printf ("\nPreço: %.2lf. Procedência: Norte.\n", preco); 
     } else if (codigo == 3) {
-        printf ("\nPreÃ§o: %.2lf. ProcedÃªncia: Leste.\n", preco); 
+        printf ("\nPreço: %.2lf. Procedência: Leste.\n", preco); 
     } else if (codigo == 4) {
-        printf ("\nPreÃ§o: %.2lf. ProcedÃªncia: Oeste.\n", preco); 
+        printf ("\nPreço: %.2lf. Procedência: Oeste.\n", preco); 
     } else if (codigo == 5 || codigo == 6) {
-        printf ("\nPreÃ§o: %.2lf. ProcedÃªncia: Nordeste.\n", preco); 
+        printf ("\nPreço: %.2lf. Procedência: Nordeste.\n", preco); 
     } else if (codigo >= 7 && codigo <= 9) {
-        printf ("\nPreÃ§o: %.2lf. ProcedÃªncia: Sudeste.\n", preco); 
+        printf ("\nPreço: %.2lf. Procedência: Sudeste.\n", preco); 
     } else if (codigo >= 10 && codigo <= 20) {
-        printf ("\nPreÃ§o: %.2lf. ProcedÃªncia: Centro-Oeste.\n", preco); 
+        printf ("\nPreço: %.2lf. Procedência: Centro-Oeste.\n", preco); 
     } else if (codigo >= 25 && codigo <= 30) {
-        printf ("\nPreÃ§o: %.2lf. ProcedÃªncia: Nordeste.\n", preco);
+        printf ("\nPreço: %.2lf. Procedência: Nordeste.\n", preco);
     }
 
     return 0;

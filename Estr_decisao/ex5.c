@@ -1,7 +1,7 @@
 /**
  * @file ex5.c
  * @author Juan Enrico (juanenricocs@outlook.com)
- * @brief Ler um nÃºmero fornecido pelo usuÃ¡rio e imprimi-lo. PorÃ©m, caso este nÃºmero seja negativo, imprima o valor original e seu valor absoluto.
+ * @brief Ler um número fornecido pelo usuário e imprimi-lo. Porém, caso este número seja negativo, imprima o valor original e seu valor absoluto.
  * @version 0.1
  * @date 2025-09-04
  * 
@@ -15,7 +15,7 @@ int main() {
 
     int n, n_absoluto;
 
-    printf ("Insira um nÃºmero N: ");
+    printf ("Insira um número N: ");
     scanf ("%d", &n);
 
     n_absoluto = abs(n);

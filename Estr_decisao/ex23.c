@@ -1,8 +1,8 @@
 /**
  * @file ex22.c
  * @author Juan Enrico (juanenricocs@outlook.com)
- * @brief Escreva um algoritmo que receba o cÃ³digo correspondente ao cargo de um
-funcionario e imprima seu cargo e o percentual de aumento ao qual este funcionÃ¡rio
+ * @brief Escreva um algoritmo que receba o código correspondente ao cargo de um
+funcionario e imprima seu cargo e o percentual de aumento ao qual este funcionário
 tem direito seguindo as regras a seguir:
 1- Escrituario (50%); 2- Secretario (35%); 3- Caixa (20%); 4- Gerente (10%); 5- Diretor (sem aumento).
  * @version 0.1
@@ -19,16 +19,16 @@ setlocale (LC_ALL, "Portuguese");
 
     int codigo_funcionario;
 
-    printf ("Informe o cÃ³digo do cargo: ");
+    printf ("Informe o código do cargo: ");
     scanf ("%d", &codigo_funcionario);
 
     switch (codigo_funcionario)
     {
     case 1:
-        printf ("\nCargo: EscrituÃ¡rio. Aumento: 50 por cento\n");
+        printf ("\nCargo: Escrituário. Aumento: 50 por cento\n");
         break;
     case 2:
-        printf ("\nCargo: SecretÃ¡rio. Aumento: 35 por cento\n");
+        printf ("\nCargo: Secretário. Aumento: 35 por cento\n");
         break;
     case 3:
         printf ("\nCargo: Caixa. Aumento: 20 por cento\n");
@@ -37,10 +37,10 @@ setlocale (LC_ALL, "Portuguese");
         printf ("\nCargo: Gerente. Aumento: 10 por cento\n");
         break;
     case 5:
-        printf ("\nCargo: Diretor. NÃ¢o tem aumento.\n");
+        printf ("\nCargo: Diretor. Não tem aumento.\n");
         break;
     default:
-        printf ("\nCÃ“DIGO INVÃLIDO!\n");
+        printf ("\nCÓDIGO INVÁLIDO!\n");
         break;
     }
 

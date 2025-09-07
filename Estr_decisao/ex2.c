@@ -1,7 +1,7 @@
 /**
  * @file ex2.c
  * @author Juan Enrico (juanenricocs@outlook.com)
- * @brief Ler um n√∫mero e imprimir a raiz quadrada do n√∫mero caso ele seja positivo ou igual a zero e o quadrado do n√∫mero, caso ele seja negativo.
+ * @brief Ler um n˙mero e imprimir a raiz quadrada do n˙mero caso ele seja positivo ou igual a zero e o quadrado do n˙mero, caso ele seja negativo.
  * @version 0.1
  * @date 2025-09-02
  * 
@@ -22,7 +22,7 @@ int main() {
     quadrado = pow(n, 2);
 
     if (n >= 0) {
-        printf ("\nRa√≠z quadrada de n: %.2lf\n", raizq);
+        printf ("\nRaiz quadrada de n: %.2lf\n", raizq);
     } else if (n < 0) {
         printf ("\nQuadrado de n: %.2lf\n", quadrado);
     }

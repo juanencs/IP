@@ -2,7 +2,7 @@
  * @file ex10.c
  * @author Juan Enrico (juanenricocs@outlook.com)
  * @brief Implemente um programa que receba a idade de uma pessoa e imprima mensagem de acordo
-com os critÃ©rios:
+com os critérios:
 - Menor de 16 anos:MENOR
 - Entre 16 e 18 anos: EMANCIPADO
 - Maior de 18 anos: MAIOR

@@ -1,11 +1,11 @@
 /**
  * @file ex1.c
  * @author Juan Enrico (juanenricocs@outlook.com)
- * @brief Ler 3 coeficientes (valores reais A, B e C) e calcular as ra√≠zes reais (se existirem) da equa√ß√£o
+ * @brief Ler 3 coeficientes (valores reais A, B e C) e calcular as raÌ≠zes reais (se existirem) da equaÁ„o
 do segundo grau. O programa deve apresentar:
-- as duas ra√≠zes, se para os valores informados for poss√≠vel fazer o c√°lculo (delta positivo ou zero);
-- a mensagem ‚ÄúN√£o h√° ra√≠zes reais‚Äù, caso delta seja negativo e
-- a mensagem ‚ÄúN√£o √© equa√ß√£o do segundo grau‚Äù, se o valor de A for igual a zero.
+- as duas raÌ≠zes, se para os valores informados for possÌ≠vel fazer o c·lculo (delta positivo ou zero);
+- a mensagem ?N„o h· raÌzes reais?, caso delta seja negativo e
+- a mensagem ?N„o È equaÁ„o do segundo grau?, se o valor de A for igual a zero.
  * @version 0.1
  * @date 2025-09-02
  * 
@@ -14,8 +14,10 @@ do segundo grau. O programa deve apresentar:
  */
 #include <stdio.h>
 #include <math.h>
+#include <locale.h>
 
 int main() {
+setlocale (LC_ALL, "Portuguese");
 
     double a, b, c, delta, raiz1, raiz2;
     
@@ -31,9 +33,9 @@ int main() {
     raiz2 = b - sqrt(delta) / (2*a);
 
     if (a == 0) {
-        printf ("\nN√£o √© uma equa√ß√£o do segundo grau\n");
+        printf ("\nN„o È uma equaÁ„o do segundo grau\n");
     } else if (delta <= 0) {
-        printf ("\nN√£o h√° ra√≠zes reais.\n");
+        printf ("\nN„o h· raÌzes reais.\n");
     } else if (delta >= 0) {
         printf ("\nValor de x': %.2lf\n", raiz1);
         printf ("\nValor de x'': %.2lf\n", raiz2);

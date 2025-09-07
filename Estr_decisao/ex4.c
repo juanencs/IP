@@ -1,7 +1,7 @@
 /**
  * @file ex4.c
  * @author Juan Enrico (juanenricocs@outlook.com)
- * @brief Ler um n√∫mero e informar se ele √© divis√≠vel por 3 e por 7.
+ * @brief Ler um n˙mero e informar se ele È divis√≠vel por 3 e por 7.
  * @version 0.1
  * @date 2025-09-04
  * 
@@ -14,13 +14,13 @@ int main() {
 
     int n;
 
-    printf ("Insira um n√∫mero N: ");
+    printf ("Insira um n˙mero N: ");
     scanf ("%d", &n);
 
     if (n % 3 == 0 && n % 7 == 0) {
-        printf ("\n%d √© divis√≠vel por 3 e por 7.\n", n);
+        printf ("\n%d … divisÌvel por 3 e por 7.\n", n);
     } else {
-        printf ("\n%d n√£o √© divis√≠vel por 3 e por 7.\n", n);
+        printf ("\n%d N„o È divisÌvel por 3 e por 7.\n", n);
     }
 
     return 0;

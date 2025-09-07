@@ -1,8 +1,8 @@
 /**
  * @file ex3.c
  * @author Juan Enrico (juanenricocs@outlook.com)
- * @brief Determinar se um nÃºmero A Ã© divisÃ­vel por um outro nÃºmero B. Esses valores devem ser
-fornecidos pelo usuÃ¡rio.
+ * @brief Determinar se um número A é divisível por um outro número B. Esses valores devem ser
+fornecidos pelo usuário.
  * @version 0.1
  * @date 2025-09-04
  * 
@@ -15,16 +15,16 @@ int main() {
 
     int a, b;
 
-    printf ("Insira o nÃºmero A para ser dividido: ");
+    printf ("Insira o número A para ser dividido: ");
     scanf ("%d", &a);
 
-    printf ("Insira o nÃºmero B para dividir A: ");
+    printf ("Insira o número B para dividir A: ");
     scanf ("%d", &b);
 
     if (a % b == 0) {
-        printf ("\n%d Ã© divisÃ­vel por %d\n", a, b);
+        printf ("\n%d É divisível por %d\n", a, b);
     } else {
-        printf ("\n%d nÃ£o Ã© divisÃ­vel por %d\n", a, b);
+        printf ("\n%d Não é divisível por %d\n", a, b);
     }
 
     return 0;
