@@ -12,8 +12,10 @@ Se o funcionário não tiver direito ao aumento, informe isso por meio de uma mens
  * 
  */
 #include <stdio.h>
+#include <locale.h>
 
 int main() {
+setlocale (LC_ALL, "Portuguese");
 
     double sal, sal_aumento;
 

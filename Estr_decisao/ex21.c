@@ -11,17 +11,19 @@ foi mencionado anteriormente, emitir uma mensagem.
  * 
  */
 #include <stdio.h>
+#include <locale.h>
 
 int main() {
+setlocale (LC_ALL, "Portuguese");
 
-    int carac;
+    char carac;
 
     printf ("Informe um caracter: ");
-    scanf ("%d", &carac);
+    scanf (" %c", &carac);
 
     if (carac == 'A' || carac == 'E' || carac == 'I' || carac == 'O' || carac == 'U') {
         printf ("\nVOGAL MAIUSCULA!\n");
-    } else if (carac >= 0 && carac <= 9) {
+    } else if (carac >= '0' && carac <= '9') {
         printf ("\nINTEIRO DE 0 ATÉ 9!\n");
     } else if (carac == '+' || carac == '-' || carac == '*' || carac == '/' || carac == '%') {
         printf ("\nOPERADOR ARITMÉTICO!\n");
@@ -29,6 +31,5 @@ int main() {
         printf ("\nCARACTER NÃO IDENTIFICADO!\n");
     }
     
-
     return 0;
 }

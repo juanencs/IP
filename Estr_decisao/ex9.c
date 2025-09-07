@@ -20,8 +20,10 @@ inferior a 7,0 mas superior ou igual a 5,0: PROVA FINAL
  * 
  */
 #include <stdio.h>
+#include <locale.h>
 
 int main() {
+setlocale (LC_ALL, "Portuguese");
 
     double n_trabalho, n_teste, n_prova, media;
     int faltas;

@@ -12,8 +12,10 @@ NORDESTE; 7, 8 ou 9 - SUDESTE; 10 até 20 - CENTRO-OESTE; 25 até 30 - NORDESTE.
  * 
  */
 #include <stdio.h>
+#include <locale.h>
 
 int main() {
+setlocale (LC_ALL, "Portuguese");
 
     double preco;
     int codigo; 
