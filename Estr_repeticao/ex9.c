@@ -28,7 +28,7 @@ setlocale (LC_ALL, "Portuguese");
     int N_aluno, aprovado = 0, reprovado = 0, exame = 0, i;
     double nota1, nota2, media_aluno, media_classe = 0; 
 
-    printf ("Insira o número total de alunos: ");
+    printf ("Insira o numero total de alunos: ");
     scanf ("%d", &N_aluno);
 
     for (i = 0; i < N_aluno; i++) {
