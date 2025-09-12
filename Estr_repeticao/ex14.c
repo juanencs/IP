@@ -25,19 +25,19 @@ int main() {
         return 1;
     }
 
-    if (n1 > n2) {
-        temp = n1;
+    if (n1 > n2) { // if com variável temporária para que independente da ordem
+        temp = n1; // das entradas, o valor de n1 seja sempre o menor.
         n1 = n2;
         n2 = temp;
     }
 
     printf("Números primos entre %d e %d:\n", n1, n2);
 
-    for (i = n1; i <= n2; i++) {
+    for (i = n1; i <= n2; i++) {    // i: variável de controle para o intervalo de números.
         cont = 0;
-        for (j = 1; j <= i; j++) {
+        for (j = 1; j <= i; j++) {  // j: variável de controle para verificação de nº primo.
             if (i % j == 0)
-                cont++;
+            cont++;
         }
         if (cont == 2) {
             printf("%d\n", i);
