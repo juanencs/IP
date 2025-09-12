@@ -1,11 +1,11 @@
 /**
  * @file ex12.c
  * @author Juan Enrico (juanenricocs@outlook.com)
- * @brief Faça um programa que:
-- leia um número real X do teclado;
-- determine e imprima o seguinte somatório:
+ * @brief FaÃ§a um programa que:
+- leia um numero real X do teclado;
+- determine e imprima o seguinte somatorio:
 S = X ? X/1! + X/2! ? X/3! + X/4 ! ...
-usando os 20 primeiros termos da série.
+usando os 20 primeiros termos da serie.
  * @version 0.1
  * @date 2025-09-12
  * 
