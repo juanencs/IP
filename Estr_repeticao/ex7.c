@@ -45,8 +45,8 @@ int main() {
             if (num < menor_num) {
                 menor_num = num; 
             }
+            i = 1;
         }
-        i = 1;
         if (num % 2 == 0) {
             quant_par++;
             soma_par += num;
