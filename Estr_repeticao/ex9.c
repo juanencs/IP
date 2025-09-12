@@ -1,18 +1,18 @@
 /**
  * @file ex9.c
  * @author Juan Enrico (juanenricocs@outlook.com)
- * @brief Faça um programa que receba 2 notas de N alunos. Calcule e mostre:
+ * @brief FaÃ§a um programa que receba 2 notas de N alunos. Calcule e mostre:
 a) a media aritmetica das 2 notas de cada aluno;
 b) uma mensagem de acordo com as regras a seguir:
-Média Aritmética                Mensagem
-     Até 3                      Reprovado
+Media Aritmetica                Mensagem
+     AtÃ© 3                      Reprovado
   Entre 3 e 7                    Exame
  De 7 para cima                 Aprovado
 c) o total de alunos aprovados;
 d) o total de alunos de exame;
 e) o total de alunos reprovados;
-f) a média da classe.
-Assuma que o N informado é válido, assim como as 2 notas de cada aluno.
+f) a media da classe.
+Assuma que o N informado Ã© vÃ¡lido, assim como as 2 notas de cada aluno.
  * @version 0.1
  * @date 2025-09-11
  * 
@@ -28,7 +28,7 @@ setlocale (LC_ALL, "Portuguese");
     int N_aluno, aprovado = 0, reprovado = 0, exame = 0, i;
     double nota1, nota2, media_aluno, media_classe = 0; 
 
-    printf ("Insira o número total de alunos: ");
+    printf ("Insira o numero total de alunos: ");
     scanf ("%d", &N_aluno);
 
     for (i = 0; i < N_aluno; i++) {
