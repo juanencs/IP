@@ -1,8 +1,8 @@
 /**
  * @file ex11.c
  * @author Juan Enrico (juanenricocs@outlook.com)
- * @brief Escreva um programa que calcule o fatorial de um número inteiro N fornecido pelo usuário. Cuidado com
- * valores inválidos!
+ * @brief Escreva um programa que calcule o fatorial de um nï¿½mero inteiro N fornecido pelo usuï¿½rio. Cuidado com
+ * valores invï¿½lidos!
  * @version 0.1
  * @date 2025-09-12
  * 
@@ -21,10 +21,10 @@ setlocale (LC_ALL, "Portuguese");
     scanf ("%d", &n);
 
     if (n < 0) {
-        printf("\nFatorial não definido para números negativos.\n");
+        printf("\nFatorial nÃ£o definido para numeros negativos.\n");
         return 1;
     } else if (n == 0) {
-        printf ("\nFatorial de 0 é 1\n");
+        printf ("\nFatorial de 0 Ã© 1\n");
         return 0;
     }
 
