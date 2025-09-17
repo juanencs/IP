@@ -1,11 +1,11 @@
 /**
  * @file ex16.c
  * @author Juan Enrico (juanenricocs@outlook.com)
- * @brief A série de Fetuccine é gerada da seguinte forma: os dois primeiros termos (inteiros) são fornecidos pelo
-usuário. A partir daí, os termos são gerados com a soma ou subtração dos dois termos anteriores, ou seja:
-Ai = Ai-1 + Ai-2, para i ímpar;
-Ai = Ai-1 – Ai-2, para i par.
-Crie um programa que imprima os N primeiros termos da série de Fetuccine, assumindo que o usuário digitará um N>=3.
+ * @brief A serie de Fetuccine eh gerada da seguinte forma: os dois primeiros termos (inteiros) sao fornecidos pelo
+usuario. A partir dai, os termos sao gerados com a soma ou subtracao dos dois termos anteriores, ou seja:
+Ai = Ai-1 + Ai-2, para i i�mpar;
+Ai = Ai-1 - Ai-2, para i par.
+Crie um programa que imprima os N primeiros termos da serie de Fetuccine, assumindo que o usuario digitara um N>=3.
  * @version 0.1
  * @date 2025-09-12
  * 

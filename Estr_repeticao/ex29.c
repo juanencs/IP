@@ -1,8 +1,8 @@
 /**
  * @file ex29.c
  * @author Juan Enrico (juanenricocs@outlook.com)
- * @brief Escreva um programa que calcule e imprima o valor do somatório de todos os números 
- * inteiros de 1 a N, onde N é um número inteiro positivo fornecido pelo usuário. 
+ * @brief Escreva um programa que calcule e imprima o valor do somatorio de todos os numeros 
+ * inteiros de 1 a N, onde N e um numero inteiro positivo fornecido pelo usuario. 
  * @version 0.1
  * @date 2025-09-12
  * 
