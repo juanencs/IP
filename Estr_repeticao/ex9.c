@@ -1,18 +1,18 @@
 /**
  * @file ex9.c
  * @author Juan Enrico (juanenricocs@outlook.com)
- * @brief Faça um programa que receba 2 notas de N alunos. Calcule e mostre:
+ * @brief Faca um programa que receba 2 notas de N alunos. Calcule e mostre:
 a) a media aritmetica das 2 notas de cada aluno;
 b) uma mensagem de acordo com as regras a seguir:
 Media Aritmetica                Mensagem
-     Até 3                      Reprovado
+     Ate 3                      Reprovado
   Entre 3 e 7                    Exame
  De 7 para cima                 Aprovado
 c) o total de alunos aprovados;
 d) o total de alunos de exame;
 e) o total de alunos reprovados;
 f) a media da classe.
-Assuma que o N informado é válido, assim como as 2 notas de cada aluno.
+Assuma que o N informado eh valido, assim como as 2 notas de cada aluno.
  * @version 0.1
  * @date 2025-09-11
  * 

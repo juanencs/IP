@@ -9,7 +9,7 @@ d) o maior numero digitado;
 e) o menor numero digitado;
 f) a media dos numeros pares;
 g) a percentagem dos numeros impares entre todos os numeros digitados.
-Finalize a entrada de dados com a digitação do número 30.000
+Finalize a entrada de dados com a digitacao do numero 30.000
  * @version 0.1
  * @date 2025-09-09
  * 
@@ -25,7 +25,7 @@ int main() {
     double media_par, percent_impar, media_num, quant_par = 0, soma_par = 0, quant_impar = 0;
 
     while (1) {
-        printf ("Digite um número (insira 30000 p/ sair): ");
+        printf ("Digite um numero (insira 30000 p/ sair): ");
         scanf ("%d", &num);
 
         if (num == 30000) {

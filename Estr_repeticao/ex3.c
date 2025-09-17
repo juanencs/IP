@@ -1,10 +1,10 @@
 /**
  * @file ex3.c
  * @author Juan Enrico (juanenricocs@outlook.com)
- * @brief O programa recebe o salario de dois funcionarios, Carlos e Joao, que farão uma
- * aplicação do seu salario integralmente na poupaça, rendendo a 2% e 5% ao mês 
- * respectivamente. Sabe-se que Joao recebe 1 terço do salario de Carlos. O programa deve
- * calcular a quantidade de meses necessários para que o investimento de Joao se iguale 
+ * @brief O programa recebe o salario de dois funcionarios, Carlos e Joao, que farao uma
+ * aplicacao do seu salario integralmente na poupanca, rendendo a 2% e 5% ao mes 
+ * respectivamente. Sabe-se que Joao recebe 1 terco do salario de Carlos. O programa deve
+ * calcular a quantidade de meses necessarios para que o investimento de Joao se iguale 
  * ou ultrapasse o de Carlos. 
  * @version 0.1
  * @date 2025-09-09

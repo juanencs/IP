@@ -1,10 +1,10 @@
 /**
  * @file ex10.c
  * @author Juan Enrico (juanenricocs@outlook.com)
- * @brief Faça um programa que monte a sequencia de Fibonacci com N termos.
-A sequencia de Fibonacci é dada por: 0 – 1 – 1 – 2 – 3 – 5 – 8 – 13 – 21 – 34 – 55 – …
-O primeiro e o segundo termos da sequencia de Fibonacci são 0 e 1.
-Considere que o usuario ira informar um número N >= 3.
+ * @brief Faca um programa que monte a sequencia de Fibonacci com N termos.
+A sequencia de Fibonacci eh dada por: 0 - 1 - 1 - 2 - 3 - 5 - 8 - 13 - 21 - 34 - 55 - ...
+O primeiro e o segundo termos da sequencia de Fibonacci sao 0 e 1.
+Considere que o usuario ira informar um numero N >= 3.
  * @version 0.1
  * @date 2025-09-11
  * 
