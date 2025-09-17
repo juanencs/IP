@@ -18,7 +18,7 @@ int main() {
     while (numerador <= 99 && denominador <= 50) {
         H += numerador / denominador;
         numerador += 2;
-        denominador +=1;
+        denominador += 1;
     }
     printf ("\nValor de H determinado pela serie: %lf\n", H);
 
