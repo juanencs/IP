@@ -4,7 +4,7 @@
  * @brief Faça um programa que:
 - leia um número real X do teclado;
 - determine e imprima o seguinte somatório:
-S = X ? X/1! + X/2! ? X/3! + X/4 ! ...
+S = X - X/1! + X/2! - X/3! + X/4 ! ...
 usando os 20 primeiros termos da série.
  * @version 0.1
  * @date 2025-09-12
