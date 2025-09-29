@@ -3,12 +3,12 @@
  * @author Juan Enrico (juanenricocs@outlook.com)
  * @brief Projeto de calculadora que seja capaz de executar, alem das quatro operacoes
 aritmeticas binarias basicas, as operacoes de potenciacao, raiz quadrada e valor absoluto.
-Fornecer um relatório que informe:
+Fornecer um relatorio que informe:
 - Ultimo resultado da calculadora
 - Quantas operacoes foram realizadas
-- A operação mais usada e a menos usada
-O programa não deve:
-- Usar estruturas do tipo vetor, matrizes, strings ou modularização
+- A operacao mais usada e a menos usada
+O programa nao deve:
+- Usar estruturas do tipo vetor, matrizes, strings ou modularizacao
  * @version 0.1
  * @date 2025-09-17
  * 
