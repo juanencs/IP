@@ -1,8 +1,8 @@
 /**
  * @file ex4.c
  * @author Juan Enrico (juanenricocs@outlook.com)
- * @brief Elabore um programa para ler um vetor de 10 números inteiros e, em seguida, ordene o vetor
-em ordem crescente, ou seja, coloque na posição 0 o menor de todos os elementos, na posição
+ * @brief Elabore um programa para ler um vetor de 10 numeros inteiros e, em seguida, ordene o vetor
+em ordem crescente, ou seja, coloque na posição 0 o menor de todos os elementos, na posicao
 1 o segundo menor e assim por diante. Ao final, Imprimir o vetor original e o vetor resultante.
  * @version 0.1
  * @date 2025-10-03
@@ -11,30 +11,29 @@ em ordem crescente, ou seja, coloque na posição 0 o menor de todos os elemento
  * 
  */
 #include <stdio.h>
+#define TAM 10
 
 int main () {
 
-    int vet[10], i, j, menor;
+    int vet[TAM], i, j, menor;
 
-    for (i = 0; i < 10; i++) {
-        printf ("Insira o valor da posição %d do vetor: ", i+1);
+    for (i = 0; i < TAM; i++) {
+        printf ("Insira o valor da posicao %d do vetor: ", i+1);
         scanf ("%d", &vet[i]);
     }
 
     printf ("\nVetor original:\n");
-    for (i = 0; i < 10; i++) {
+    for (i = 0; i < TAM; i++) {
         printf ("%d ", vet[i]);
     }
 
-    for (j = 0; j < 10; j++) {
-        for (i = 0; i < 10; i++) {
-            if (vet[j] > vet[i+1]) {
-                menor = vet[i+1];
-                vet[i+1] = vet[i];
-                vet[i] = menor;
-            } else {
+    for (i = 0; i < TAM; i++) {
+        for (j = 0; j < TAM; j++) {
+            if (i != j && vet[i] <= vet[j]) {
                 menor = vet[i];
-            }
+                vet[i] = vet[j];
+                vet[j] = menor;
+            } 
         }
     }
 
