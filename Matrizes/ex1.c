@@ -14,7 +14,8 @@ A + B, exiba as matrizes fornecidas e o resultado
 int main() {
 
     int i, j, m, n;
-    printf ("Insira a quantidade de linhas (Ex: 3 4):\n");
+
+    printf ("Insira a quantidade de linhas e colunas (Ex: 3 4):\n");
     if (scanf("%d %d", &m, &n) != 2) {
         printf ("\nEntrada inválida, informe dois numeros inteiros.\n");
         return 1;
@@ -23,6 +24,7 @@ int main() {
         printf ("\nOs valores de linha e coluna devem ser maiores ou iguais a 1.\n");
         return 1;
     }
+    
     int mat_A[m][n], mat_B[m][n], mat_C[m][n];
 
     printf ("\n");
