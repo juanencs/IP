@@ -16,7 +16,7 @@ o usuário assim o desejar) e imprimir o(s) volume(s) calculado(s)
 
 double volume_esfera (double raio) {
 
-    double volume = (4.0/3.0) * PI * pow(raio, 3);
+    double volume = (4.0/3.0) * PI * (raio*raio*raio);
     return volume;
 }
 

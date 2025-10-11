@@ -11,23 +11,27 @@ concatene as duas strings e imprima a string resultante.
  */
 #include <stdio.h>
 #include <string.h>
+#define TAM 10000
 
 int main() {
 
-    char string1[100], string2[100];
+    char string1[TAM], string2[TAM];
 
     printf ("Insira a string 1: ");
-    fgets (string1, sizeof string1, stdin);
+    fgets (string1, TAM, stdin);
     string1[strcspn(string1, "\n")] = '\0';
-    printf ("Confirmar string 2: ");
-    fgets (string2, sizeof string2, stdin);
+
+    printf ("Insira a string 2: ");
+    fgets (string2, TAM, stdin);
     string2[strcspn(string2, "\n")] = '\0';
 
     if (strcmp(string1, string2) == 0) {
         printf ("\nSTRINGS IGUAIS!\n");
     } else {
+        printf ("\nString resultante: ");
         strcat (string1, string2);
-        fputs ((strcat (string1, string2)), stdout);
+        fputs (string1, stdout);
+        printf ("\n");
     }
     
     return 0;

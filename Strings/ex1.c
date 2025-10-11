@@ -13,16 +13,18 @@ senha digitada confere com a senha pre-estabelecida.
  */
 #include <stdio.h>
 #include <string.h>
+#define TAM 10000
 
 int main() {
 
-    char senha1[100], senha2[100];
+    char senha1[TAM], senha2[TAM];
 
     printf ("Insira a senha: ");
-    fgets (senha1, sizeof senha1, stdin);
+    fgets (senha1, TAM, stdin);
     senha1[strcspn(senha1, "\n")] = '\0';
+    
     printf ("Confirmar senha: ");
-    fgets (senha2, sizeof senha2, stdin);
+    fgets (senha2, TAM, stdin);
     senha2[strcspn(senha2, "\n")] = '\0';
 
     if (strcmp(senha1, senha2) == 0) {
