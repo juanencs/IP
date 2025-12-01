@@ -51,7 +51,7 @@ void cadastraProduto(Estoque **estoque){
     fgets(atualizado->nome, sizeof(atualizado->nome), stdin);
     atualizado->nome[strcspn(atualizado->nome, "\n")] = 0;
     if (strlen(atualizado->nome) == 0) {
-        printf("Nome nao pode ser vazio.\n");
+        printf("\nNome nao pode ser vazio.\n");
         return;
     }
 
@@ -59,14 +59,17 @@ void cadastraProduto(Estoque **estoque){
     fgets(atualizado->codigo, sizeof(atualizado->codigo), stdin);
     atualizado->codigo[strcspn(atualizado->codigo, "\n")] = 0;
     if (strlen(atualizado->codigo) == 0) {
-        printf("Codigo nao pode ser vazio.\n");
+        printf("\nCodigo nao pode ser vazio.\n");
         return;
     }
 
     printf("Preco: R$ ");
-    scanf("%f", &atualizado->preco);
-    if (atualizado->preco < 0){
-        printf("\nEntrada inválida para preco.\n");
+    if (scanf("%f", &atualizado->preco) != 1) {
+        printf("\nErro: Entrada invalida. O preco deve ser numerico.\n");
+        while (getchar() != '\n');
+        return;
+    } else if (atualizado->preco < 0) {
+        printf("\nErro: O preco nao pode ser negativo.\n");
         return;
     }
 
@@ -75,13 +78,12 @@ void cadastraProduto(Estoque **estoque){
     fgets(atualizado->categoria, sizeof(atualizado->categoria), stdin);
     atualizado->categoria[strcspn(atualizado->categoria, "\n")] = 0;
     if (strlen(atualizado->categoria) == 0) {
-        printf("Categoria nao pode ser vazia.\n");
+        printf("\nCategoria nao pode ser vazia.\n");
         return;
     }
    
     printf("Quantidade: ");
     scanf("%d", &atualizado->quant);
-
     if (atualizado->quant <= 0){
         printf("\nQuantidade invalida.\n");
         return;
@@ -291,7 +293,7 @@ void geraRelatorios(Estoque *estoque){
                     printf("\nCategoria: %s\n", cat);
                     printf("Codigo: %s\n", j->codigo);
                     printf("Nome: %s\n", j->nome);
-                    printf("Preco: R$%.2f\n", j->preco);
+                    printf("Preco: R$ %.2f\n", j->preco);
                     printf("Quantidade: %d\n", j->quant);
                     encontrado = 1;
                 }
