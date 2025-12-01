@@ -21,7 +21,7 @@ Além do funcionamento básico, este documento inclui um **ROTEIRO DE TESTES COM
 ### Estrutura Jogo
 
 ```bash
-typedef struct{
+typedef struct {
     char nome[30];
     char categoria[20];
     char codigo[20];
@@ -135,7 +135,7 @@ Verificar se o cadastro de novos jogos funciona corretamente.
 | Campo | Exemplo | Restrições |
 |-------|---------|------------|
 | Nome | The Witcher 3 | Obrigatório |
-| Código | 101 | Somente inteiros positivos; não duplicar |
+| Código | PS5-001 | Strings; não duplicar; obrigatório |
 | Preço | 199.90 | Somente números positivos |
 | Categoria | RPG | Aceita texto; comparação é case-insensitive |
 | Quantidade | 10 | Inteiro > 0 |
@@ -153,7 +153,7 @@ Verificar se o cadastro de novos jogos funciona corretamente.
 
 ### Passos
 1. Digite **2**.
-2. Informe um código existente, como `101`.
+2. Informe um código existente, como `PS5-001`.
 
 ### Resultado esperado
 Mostra:
@@ -174,8 +174,8 @@ Adicionar unidades ao estoque de um produto.
 
 ### Passos
 1. Digite **3**.
-2. Informe o código cadastrado (ex.: `101`).
-3. Digite a data (`dd/mm/aaaa`).
+2. Informe o código cadastrado (ex.: `PS5-001`).
+3. Digite a data (`dd/mm/aaaa`), respeitando o modelo com caracteres numéricos separados por barras.
 4. Digite a quantidade a adicionar (> 0).
 
 ### Resultado esperado
@@ -195,7 +195,7 @@ Remover unidades de um produto.
 
 ### Passos
 1. Digite **4**.
-2. Informe o código (ex.: `101`).
+2. Informe o código (ex.: `PS5-001`).
 3. Digite a data.
 4. Digite a quantidade a remover.
 
@@ -266,7 +266,7 @@ Resultado esperado:
 | Caso | Objetivo |
 |------|----------|
 | Cadastro duplicado | Testar se o sistema permite códigos repetidos (hoje **permite**) |
-| Entrada gigante | Verificar overflow lógico |
+| Entrada grande | Verificar overflow lógico |
 | Saída com quantidade insuficiente | Deve impedir a operação |
 | Categorias variadas | Testar filtro por categoria |
 | Relatórios com estoque vazio | Deve exibir mensagens corretas |
