@@ -261,18 +261,6 @@ Resultado esperado:
 
 ---
 
-# 8. Casos de Teste Sugeridos
-
-| Caso | Objetivo |
-|------|----------|
-| Cadastro duplicado | Testar se o sistema permite códigos repetidos (hoje **permite**) |
-| Entrada grande | Verificar overflow lógico |
-| Saída com quantidade insuficiente | Deve impedir a operação |
-| Categorias variadas | Testar filtro por categoria |
-| Relatórios com estoque vazio | Deve exibir mensagens corretas |
-
----
-
 # Conclusão
 
 Este README reúne:
